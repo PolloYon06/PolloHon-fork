@@ -1,3 +1,5 @@
+PolloHon is an unofficial fork of Mihon, a free and open-source manga, webtoon and comic reader.
+
 Features:
 * Read your way with customizable viewing modes, including traditional right-to-left, left-to-right, and long strip for webtoons.
 * Organize your collection into custom categories, see unread badges, and get automatic updates when new chapters drop.

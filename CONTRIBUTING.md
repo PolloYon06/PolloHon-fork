@@ -1,4 +1,7 @@
-Looking to report an issue/bug or make a feature request? Please refer to the [README file](https://github.com/mihonapp/mihon#issues-feature-requests-and-contributing).
+Looking to report an issue/bug or make a feature request? Please refer to the [README file](https://github.com/PolloYon06/PolloHon#pollohon).
+
+> This repository is an unofficial fork of [Mihon](https://github.com/mihonapp/mihon). The guide
+> below is inherited from upstream and applies to this fork as well.
 
 ---
 
