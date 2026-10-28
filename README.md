@@ -1,4 +1,10 @@
+<div align="center">
+
+<img src=".github/assets/icon.svg" alt="PolloHon" width="96"/>
+
 # PolloHon
+
+</div>
 
 A personal, unofficial fork of [Mihon](https://github.com/mihonapp/mihon) — a free and open-source
 manga, webtoon and comic reader for Android.
