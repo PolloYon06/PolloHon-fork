@@ -54,6 +54,7 @@ import eu.kanade.tachiyomi.util.system.copyToClipboard
 import eu.kanade.tachiyomi.util.system.launchRequestPackageInstallsPermission
 import mihon.domain.extension.model.ExtensionStore
 import mihon.icons.materialsymbols.MaterialSymbols
+import mihon.icons.materialsymbols.rounded.Add
 import mihon.icons.materialsymbols.rounded.Close
 import mihon.icons.materialsymbols.rounded.Download
 import mihon.icons.materialsymbols.rounded.Info
@@ -73,6 +74,9 @@ import tachiyomi.presentation.core.screens.EmptyScreenAction
 import tachiyomi.presentation.core.screens.LoadingScreen
 import tachiyomi.presentation.core.theme.header
 import tachiyomi.presentation.core.util.plus
+
+private const val RECOMMENDED_STORE_INDEX_URL =
+    "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json"
 
 @Composable
 fun ExtensionScreen(
@@ -109,6 +113,11 @@ fun ExtensionScreen(
                     stringRes = msg,
                     modifier = Modifier.padding(contentPadding),
                     actions = listOf(
+                        EmptyScreenAction(
+                            stringRes = MR.strings.extensionStoresScreen_addRecommendedStore,
+                            icon = MaterialSymbols.Rounded.Add,
+                            onClick = { navigator.push(ExtensionStoresScreen(RECOMMENDED_STORE_INDEX_URL)) },
+                        ),
                         EmptyScreenAction(
                             stringRes = MR.strings.extensionStores,
                             icon = MaterialSymbols.Rounded.Settings,

@@ -19,10 +19,16 @@ PolloHon is not affiliated with Mihon, Tachiyomi, or any content provider. It ho
 - **Built-in updater disabled** by default. If you re-enable it, it points at this repository's
   releases only.
 - New launcher icon, splash logo and notification glyph (a chicken, because *pollo*).
+- Donation and patron prompts removed; nothing in the app asks for money.
 
 Everything else — the reader, library, downloads, tracking, backups and the extension API — is
 upstream Mihon code. Extensions built for Mihon/Tachiyomi work unchanged; add an extension store
 under **Settings → Browse → Extension stores**.
+
+## First run
+
+Open **Browse → Extensions**. When no store is configured, the empty screen offers
+**Add Keiyoushi extension store**; tap it, confirm, and install whatever sources you need.
 
 ## Building
 
