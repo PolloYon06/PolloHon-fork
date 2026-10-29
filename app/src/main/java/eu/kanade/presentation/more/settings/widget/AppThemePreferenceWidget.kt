@@ -96,6 +96,7 @@ private fun AppThemesList(
                 TachiyomiTheme(
                     appTheme = appTheme,
                     amoled = amoled,
+                    classicWeb = false,
                 ) {
                     AppThemePreviewItem(
                         selected = currentTheme == appTheme,

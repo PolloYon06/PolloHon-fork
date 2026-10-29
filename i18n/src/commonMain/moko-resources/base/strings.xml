@@ -221,6 +221,8 @@
       <!-- General section -->
     <string name="pref_category_theme">Theme</string>
     <string name="pref_app_theme">App theme</string>
+    <string name="pref_classic_web_mode">Classic web mode</string>
+    <string name="pref_classic_web_mode_summary">Retro webcore look inspired by early websites: beige palette, square corners and scanlines</string>
     <string name="theme_system">System</string>
     <string name="theme_light">Light</string>
     <string name="theme_dark">Dark</string>

@@ -94,6 +94,11 @@ object SettingsAppearanceScreen : SearchableSettings {
                         true
                     },
                 ),
+                Preference.PreferenceItem.SwitchPreference(
+                    preference = uiPreferences.classicWebMode,
+                    title = stringResource(MR.strings.pref_classic_web_mode),
+                    subtitle = stringResource(MR.strings.pref_classic_web_mode_summary),
+                ),
             ),
         )
     }
